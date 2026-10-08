@@ -1,0 +1,120 @@
+{
+"lessons": [
+{
+"b": [
+"Animation creates the illusion of movement by showing a sequence of still images quickly. Each image is a frame.",
+"This works because of persistence of vision: the eye holds each image briefly, so the frames blend into motion.",
+"Film is commonly shown at 24 frames per second. More frames per second give smoother motion."
+],
+"q": [
+{
+"q": "Each still image in an animation is called a…",
+"o": [
+"Frame",
+"Layer",
+"Pixel"
+],
+"a": 0,
+"e": "Frames shown in order create motion."
+},
+{
+"q": "Why do fast-changing images look like movement?",
+"o": [
+"Persistence of vision",
+"Compression",
+"Encoding"
+],
+"a": 0,
+"e": "The eye holds each image for a moment."
+}
+]
+},
+{
+"b": [
+"Traditional animation uses hand-drawn frames. 2D animation is made digitally with tools such as Adobe Animate, for cartoons, banners and 2D games.",
+"3D animation uses modeled objects that are rigged and animated, for example in Blender. Stop motion photographs real objects moved a little between shots.",
+"Motion graphics animates titles, logos and graphics, often in After Effects."
+],
+"q": [
+{
+"q": "Which type photographs real objects moved a little between shots?",
+"o": [
+"Stop motion",
+"Motion graphics",
+"2D vector"
+],
+"a": 0,
+"e": "Each photo becomes one frame."
+},
+{
+"q": "Which tool from your notes is for 3D modeling and animation?",
+"o": [
+"Blender",
+"Audacity",
+"VLC"
+],
+"a": 0,
+"e": "Blender covers modeling, rigging, animation and rendering."
+}
+]
+},
+{
+"b": [
+"The 12 principles of animation include squash and stretch, anticipation, staging, follow through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing and appeal.",
+"Anticipation is a small move before the main action, like a wind-up before a throw.",
+"Slow in and slow out means movement eases at the start and end instead of moving at a constant speed."
+],
+"q": [
+{
+"q": "A wind-up before a throw is an example of…",
+"o": [
+"Anticipation",
+"Staging",
+"Appeal"
+],
+"a": 0,
+"e": "It prepares the viewer for the main action."
+},
+{
+"q": "Slow in and slow out means…",
+"o": [
+"Motion eases at the start and end",
+"Constant speed",
+"Skipping frames"
+],
+"a": 0,
+"e": "It makes motion look natural."
+}
+]
+},
+{
+"b": [
+"A basic workflow: idea, script, storyboard, design, animation, then render or export.",
+"A keyframe marks an important pose or position. In-betweening, or tweening, fills the frames between keyframes.",
+"Rigging builds a skeleton for a 3D character so it can be posed. Rendering produces the final images or video."
+],
+"q": [
+{
+"q": "What fills the frames between keyframes?",
+"o": [
+"Tweening",
+"Rigging",
+"Scanning"
+],
+"a": 0,
+"e": "Software or the animator creates the in-betweens."
+},
+{
+"q": "Rigging means…",
+"o": [
+"Building a skeleton to pose a 3D character",
+"Exporting audio",
+"Typing text"
+],
+"a": 0,
+"e": "The rig lets you pose and move the model."
+}
+]
+}
+]
+}

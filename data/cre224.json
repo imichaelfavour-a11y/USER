@@ -1,0 +1,212 @@
+{
+"lessons": [
+{
+"b": [
+"Multimedia combines different forms of media to convey information, express ideas or entertain.",
+"The five elements are text, images, audio, video and interactive elements such as animations, games and simulations.",
+"Benefits: it improves storytelling, increases audience participation, gives a richer experience and supports different learning styles."
+],
+"q": [
+{
+"q": "Which element lets the user take part, like a game or simulation?",
+"o": [
+"Text",
+"Interactive elements",
+"Images"
+],
+"a": 1,
+"e": "Interactive elements respond to what the user does."
+},
+{
+"q": "A YouTube video combines…",
+"o": [
+"video, audio and text",
+"only images",
+"only text"
+],
+"a": 0,
+"e": "It mixes moving pictures, sound and captions or text."
+}
+]
+},
+{
+"b": [
+"Education: educational videos, virtual labs, online courses and e-learning platforms.",
+"Entertainment: movies, music, video games and cartoons. Business: training, presentations and virtual meetings. Advertising: TV and online ads, social media campaigns.",
+"Healthcare: medical training simulations and patient education. Telemedicine, also called telehealth, is the use of technology to provide healthcare services remotely.",
+"Tourism and travel: virtual tours, interactive guided tours and AR navigation."
+],
+"q": [
+{
+"q": "Telemedicine means…",
+"o": [
+"Making medicine in a lab",
+"Providing healthcare remotely using technology",
+"Selling drugs online"
+],
+"a": 1,
+"e": "It covers virtual consultations, remote monitoring and shared digital health records."
+},
+{
+"q": "A virtual tour of a museum is multimedia used in…",
+"o": [
+"Tourism and travel",
+"Banking",
+"Farming"
+],
+"a": 0,
+"e": "Virtual tours help people explore and plan trips."
+}
+]
+},
+{
+"b": [
+"A multimedia system is a computer-based system that integrates text, images, audio, video and interactive elements to create, store, process and communicate information.",
+"Key components of the architecture: hardware, software, networking and data management.",
+"Characteristics: scalability (handle large data and many users), interoperability (work across platforms), Quality of Service, and security.",
+"Examples: video streaming services, VR and AR systems, online learning platforms, video conferencing and digital signage."
+],
+"q": [
+{
+"q": "Ability to handle large amounts of data and many users is called…",
+"o": [
+"Scalability",
+"Security",
+"Interoperability"
+],
+"a": 0,
+"e": "Scalability means the system keeps working as demand grows."
+},
+{
+"q": "Quality of Service (QoS) is about…",
+"o": [
+"Protecting from piracy",
+"Smooth playback and low latency",
+"Choosing fonts"
+],
+"a": 1,
+"e": "QoS ensures smooth playback, low latency and high-quality rendering."
+}
+]
+},
+{
+"b": [
+"Image formats: JPEG is compressed and suits photographs. PNG supports transparent backgrounds. GIF is used for animated images.",
+"Audio formats: MP3 is compressed. WAV is uncompressed and high quality. AAC is compressed with high quality.",
+"Video formats: MP4 is widely used online. AVI stores high-quality video. MOV is common in professional editing.",
+"Other formats: PDF for sharing and printing documents. SWF was used for animations and games."
+],
+"q": [
+{
+"q": "Which image format supports transparent backgrounds?",
+"o": [
+"JPEG",
+"PNG",
+"MP3"
+],
+"a": 1,
+"e": "PNG keeps transparency, which makes it good for logos."
+},
+{
+"q": "Which audio format is uncompressed?",
+"o": [
+"WAV",
+"MP3",
+"AAC"
+],
+"a": 0,
+"e": "WAV is uncompressed, so files are large but high quality."
+}
+]
+},
+{
+"b": [
+"Hardware: graphics cards, sound cards, speakers and headphones, webcams and cameras, microphones, and storage devices such as hard drives, SSDs and flash drives.",
+"Software: video editing (Premiere Pro, Final Cut Pro, DaVinci Resolve), audio editing (Audacity, Adobe Audition, Logic Pro), graphics (Photoshop, Illustrator, Canva), players (VLC, Windows Media Player, QuickTime), 3D and animation (Blender, Maya, 3ds Max), and screen recording (OBS Studio, Camtasia, XSplit).",
+"Input devices capture content: camera, microphone and scanner. Output devices present it: speakers, headphones and VR gear."
+],
+"q": [
+{
+"q": "Which of these is an input device?",
+"o": [
+"Scanner",
+"Speakers",
+"Headphones"
+],
+"a": 0,
+"e": "A scanner digitizes printed documents and images."
+},
+{
+"q": "Which is free, open-source audio editing software?",
+"o": [
+"Audacity",
+"Photoshop",
+"Premiere Pro"
+],
+"a": 0,
+"e": "Audacity is used for podcast, music and voiceover editing."
+}
+]
+},
+{
+"b": [
+"Authoring tools are applications for creating multimedia content: interactive presentations, e-learning modules, games, simulations and interactive stories.",
+"Examples: Adobe Captivate, Articulate Storyline, Adobe Animate, Lectora Inspire and Unity.",
+"Key features: drag-and-drop interface, support for many media formats, interactivity, collaboration and publishing to formats such as HTML5.",
+"Unity is a game engine for 2D and 3D games, simulations, and VR and AR. Blender does 3D modeling, animation and rendering. After Effects does motion graphics and visual effects."
+],
+"q": [
+{
+"q": "Which tool is a game engine for 2D and 3D games and VR/AR?",
+"o": [
+"Unity",
+"Audacity",
+"Photoshop"
+],
+"a": 0,
+"e": "Unity also builds simulations and interactive experiences."
+},
+{
+"q": "Which software is used for 3D modeling and rendering?",
+"o": [
+"Blender",
+"Canva",
+"VLC"
+],
+"a": 0,
+"e": "Blender covers modeling, animation and rendering."
+}
+]
+},
+{
+"b": [
+"Fonts are typefaces such as Arial, Times New Roman and Helvetica. Styles such as bold, italic and underline add emphasis.",
+"Legibility is the clarity of text (size, style, colour). Readability is the ease of reading (line spacing, paragraph structure, background contrast).",
+"Encoding standards: ASCII represents text in computers. Unicode is a universal standard for many languages and scripts.",
+"Hypertext links to other text or media. Interactive text responds to input, such as clickable buttons. Text should also be accessible to users with disabilities."
+],
+"q": [
+{
+"q": "Which standard represents text in many languages and scripts?",
+"o": [
+"ASCII",
+"Unicode",
+"MP3"
+],
+"a": 1,
+"e": "Unicode is the universal character encoding standard."
+},
+{
+"q": "Text that links to other text or media is called…",
+"o": [
+"Hypertext",
+"Typography",
+"Legibility"
+],
+"a": 0,
+"e": "Hypertext lets users navigate and explore content."
+}
+]
+}
+]
+}

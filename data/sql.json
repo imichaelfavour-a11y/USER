@@ -1,0 +1,91 @@
+{
+"lessons": [
+{
+"b": [
+"CREATE TABLE makes a new table. You name each column and give it a data type.",
+"Example: CREATE TABLE Student_info (Reg_No VARCHAR(10) PRIMARY KEY, First_name CHAR(25) NOT NULL, Surname CHAR(25) NOT NULL, Department INT NOT NULL);",
+"CHAR(n) stores fixed-length text. VARCHAR(n) stores variable-length text up to n characters. INT stores whole numbers."
+],
+"q": [
+{
+"q": "Which command creates a new table?",
+"o": [
+"CREATE TABLE",
+"INSERT INTO",
+"SELECT"
+],
+"a": 0,
+"e": "CREATE TABLE defines columns and types."
+},
+{
+"q": "Which type stores whole numbers?",
+"o": [
+"INT",
+"CHAR",
+"VARCHAR"
+],
+"a": 0,
+"e": "INT holds integers."
+}
+]
+},
+{
+"b": [
+"PRIMARY KEY uniquely identifies each row and cannot be NULL.",
+"NOT NULL means the column must always have a value. UNIQUE means no two rows can share the same value.",
+"DEFAULT gives a value when none is supplied, for example DEFAULT 'Nigeria'."
+],
+"q": [
+{
+"q": "Which constraint forces a value to always be present?",
+"o": [
+"NOT NULL",
+"DEFAULT",
+"UNIQUE"
+],
+"a": 0,
+"e": "NOT NULL rejects empty values."
+},
+{
+"q": "DEFAULT 'Nigeria' does what?",
+"o": [
+"Uses Nigeria when no value is given",
+"Blocks all other values",
+"Makes the column the key"
+],
+"a": 0,
+"e": "It fills in the value automatically."
+}
+]
+},
+{
+"b": [
+"A table can have only one primary key. Writing PRIMARY KEY on the column and again as PRIMARY KEY(Reg_No) at the end gives an error. Use one or the other.",
+"Do not put a comma after the last column or constraint before the closing bracket.",
+"Column names cannot contain a hyphen. Use underscores, and spell the name the same everywhere you use it."
+],
+"q": [
+{
+"q": "How many primary keys can one table have?",
+"o": [
+"One",
+"Two",
+"As many as columns"
+],
+"a": 0,
+"e": "A primary key can span several columns, but there is only one."
+},
+{
+"q": "Which is a valid column name?",
+"o": [
+"Reg_No",
+"Reg-No",
+"Reg No!"
+],
+"a": 0,
+"e": "Use letters, numbers and underscores."
+}
+]
+}
+]
+}

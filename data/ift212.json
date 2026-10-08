@@ -1,0 +1,184 @@
+{
+"lessons": [
+{
+"b": [
+"An instruction format is the layout of a machine-level instruction. It has an opcode (the operation), an operand (the data involved) and an addressing mode (direct or indirect).",
+"Zero address format uses a stack. Operations act on the top of the stack, so no operands are named.",
+"One address format names a single operand. The other is held in the accumulator (AC).",
+"Two address format names two operands (registers or memory). Three address format names two sources and one destination.",
+"For x = (A+B)*(C+D), three address format needs only ADD R1,A,B then ADD R2,C,D then MUL X,R1,R2."
+],
+"q": [
+{
+"q": "Which format uses a stack and names no operands?",
+"o": [
+"Zero address",
+"One address",
+"Three address"
+],
+"a": 0,
+"e": "Operations are done on the top of the stack."
+},
+{
+"q": "In one address format, the second operand is typically held in the…",
+"o": [
+"Stack",
+"Accumulator",
+"Cache"
+],
+"a": 1,
+"e": "The accumulator (AC) holds the running result."
+}
+]
+},
+{
+"b": [
+"A subroutine is a set of instructions used repeatedly in a program. A call instruction jumps to it, and execution returns to the next instruction afterwards.",
+"Subroutine linkage is how the computer calls and returns. The simplest way is to save the return address in a link register.",
+"Advantages: code reuse, modularity and encapsulation. Disadvantages: overhead from pushing and popping the stack, complexity and side effects.",
+"Subroutine nesting is when one subroutine calls another. It works like a stack: last in, first out (LIFO)."
+],
+"q": [
+{
+"q": "A stack works on which rule?",
+"o": [
+"First in, first out",
+"Last in, first out",
+"Random access"
+],
+"a": 1,
+"e": "The last item pushed is the first one popped."
+},
+{
+"q": "Subroutine nesting means…",
+"o": [
+"A subroutine calls another subroutine",
+"A program has no subroutines",
+"Memory is split in two"
+],
+"a": 0,
+"e": "Return addresses are kept on the stack."
+}
+]
+},
+{
+"b": [
+"An interrupt is the automatic transfer of software execution in response to a hardware event that is asynchronous with the current execution.",
+"The trigger is the hardware event, for example a busy-to-ready change in an I/O device such as a UART. The interrupt service routine runs as a background thread.",
+"To arm a device means allowing its trigger to interrupt. To disarm means disconnecting it.",
+"Five conditions must hold together: the current instruction finishes, eight registers are pushed on the stack, LR is set to 0xFFFFFFFF, IPSR is set to the interrupt number, and PC is loaded with the interrupt vector."
+],
+"q": [
+{
+"q": "To arm a device means to…",
+"o": [
+"Delete its data",
+"Allow its hardware trigger to interrupt",
+"Disconnect it"
+],
+"a": 1,
+"e": "Disarming is the opposite: it disconnects the trigger."
+},
+{
+"q": "Which register is loaded with the interrupt vector?",
+"o": [
+"PC",
+"LR",
+"IPSR"
+],
+"a": 0,
+"e": "The PC then fetches the interrupt service routine."
+}
+]
+},
+{
+"b": [
+"The memory hierarchy arranges memory types by speed, cost and size to optimise performance.",
+"Levels: registers (fastest, inside the CPU), cache (small and fast, near the CPU), main memory or RAM (volatile), secondary storage (non-volatile, such as HDD, SSD and flash drives), and tertiary or offline storage for backups.",
+"DRAM is used as main memory. SRAM is faster and more expensive, and is used in caches.",
+"Purpose: balance speed and cost, give the CPU quick access to frequently used data, and improve overall efficiency."
+],
+"q": [
+{
+"q": "Which is the fastest memory in a computer?",
+"o": [
+"Registers",
+"RAM",
+"SSD"
+],
+"a": 0,
+"e": "Registers sit inside the CPU."
+},
+{
+"q": "Which type of RAM is used in caches?",
+"o": [
+"DRAM",
+"SRAM",
+"Optical media"
+],
+"a": 1,
+"e": "SRAM is faster and more expensive than DRAM."
+}
+]
+},
+{
+"b": [
+"The Von Neumann idea: data and instructions can be stored in the same memory.",
+"MAR is the Memory Address Register. MDR is the Memory Data Register. The CPU also contains the ALU, PC, IR, control unit and accumulator, connected to memory and I/O by buses.",
+"The computer organization process is: fetch, decode, execute (process), then store."
+],
+"q": [
+{
+"q": "The Von Neumann architecture stores…",
+"o": [
+"Only data in memory",
+"Data and instructions in the same memory",
+"Only instructions in memory"
+],
+"a": 1,
+"e": "One memory holds both."
+},
+{
+"q": "MAR stands for…",
+"o": [
+"Memory Address Register",
+"Main Access Router",
+"Memory Array Reader"
+],
+"a": 0,
+"e": "MDR is the Memory Data Register."
+}
+]
+},
+{
+"b": [
+"High-level constructs such as loops and conditionals are turned into low-level machine instructions by a compiler or an interpreter.",
+"A compiler translates the entire source code into machine-specific instructions before execution. An interpreter translates and executes the code line by line or in small segments.",
+"Three steps: translation, mapping constructs into instructions, and execution by hardware.",
+"Mapping: arithmetic operators map directly to instructions, conditionals (if, if-else) and loops (for, while) become instructions, variable assignment is handled, and function calls push the function's data onto a stack."
+],
+"q": [
+{
+"q": "Which translates the whole source code before execution?",
+"o": [
+"Compiler",
+"Interpreter",
+"Scanner"
+],
+"a": 0,
+"e": "An interpreter works line by line instead."
+},
+{
+"q": "Function calls are handled by…",
+"o": [
+"Pushing onto a stack",
+"Deleting the code",
+"Using a scanner"
+],
+"a": 0,
+"e": "The stack keeps return information for each call."
+}
+]
+}
+]
+}

@@ -1,0 +1,121 @@
+{
+"lessons": [
+{
+"b": [
+"Structured programming is a technique for writing clear, logical code that is easy to read, understand, debug and maintain. C++, C and Java support it.",
+"Programs run instruction by instruction with no random jumping. This is why structured programming is almost synonymous with eliminating GOTO.",
+"C++ gives four control flow concepts: sequence, selection, repetition and subroutine statements."
+],
+"q": [
+{
+"q": "Structured programming is almost synonymous with…",
+"o": [
+"GOTO elimination",
+"More GOTO statements",
+"Assembly only"
+],
+"a": 0,
+"e": "Structured code avoids unconditional jumps."
+},
+{
+"q": "Which is NOT one of the four control flow concepts?",
+"o": [
+"Sequence",
+"Selection",
+"Compilation"
+],
+"a": 2,
+"e": "The four are sequence, selection, repetition and subroutine."
+}
+]
+},
+{
+"b": [
+"Sequence structure means statements run one after the other, in the order they are written.",
+"Example: int a = 5; int b = 6; int c = a * b; cout << c; This sets a to 5, b to 6, stores the product 30 in c, then displays it.",
+"In a flow chart, a rectangle is a statement and an arrow is the flow to the next one."
+],
+"q": [
+{
+"q": "In a sequence structure, statements run…",
+"o": [
+"In the order written",
+"In random order",
+"Only if true"
+],
+"a": 0,
+"e": "Each statement starts after the previous one finishes."
+},
+{
+"q": "After int a = 5; int b = 6; int c = a * b; what does c hold?",
+"o": [
+"11",
+"30",
+"56"
+],
+"a": 1,
+"e": "5 times 6 is 30."
+}
+]
+},
+{
+"b": [
+"Selection statements use a Boolean expression that is true or false to decide what runs next.",
+"if (condition) { ... } runs the block only when the condition is true, and skips it when false.",
+"if ... else runs one block when true and a different block when false. Afterwards, execution continues with the statement after the else block.",
+"Example: if (age >= 18) { calculate pay } else { print that the person is under age }."
+],
+"q": [
+{
+"q": "An if single-selection statement does what when the condition is false?",
+"o": [
+"Skips the block",
+"Runs the else block",
+"Stops the program"
+],
+"a": 0,
+"e": "Without an else, nothing in the block runs."
+},
+{
+"q": "What does if...else allow?",
+"o": [
+"Only one action",
+"A different action for true and for false",
+"Looping"
+],
+"a": 1,
+"e": "One block for true, another for false."
+}
+]
+},
+{
+"b": [
+"A nested if is an if or if...else placed inside another one. There is no limit to nesting.",
+"Nested if...else chains handle multiple alternatives. Example: if (score >= 70) grade = 'A'; else if (score >= 60) grade = 'B'; and so on down to else grade = 'F'.",
+"When several conditions are true, only the first matching branch runs. Order your conditions from highest to lowest."
+],
+"q": [
+{
+"q": "In an else-if chain, if several conditions are true, how many branches run?",
+"o": [
+"One: the first that matches",
+"All of them",
+"None"
+],
+"a": 0,
+"e": "After the first match, the rest are skipped."
+},
+{
+"q": "A nested if is…",
+"o": [
+"An if inside another if",
+"A loop",
+"A subroutine"
+],
+"a": 0,
+"e": "The inner if only runs when the outer condition passes."
+}
+]
+}
+]
+}
